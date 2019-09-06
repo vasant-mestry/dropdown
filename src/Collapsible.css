@@ -1,0 +1,35 @@
+.container {
+  margin: 10px;
+  border: 1px solid grey;
+  position: relative;
+}
+.container :hover {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.content {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid grey;
+  box-shadow: -4px 5px 5px #b8b8b8;
+}
+
+.scroll {
+  height: 130px;
+  overflow: auto;
+}
+
+.options:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}

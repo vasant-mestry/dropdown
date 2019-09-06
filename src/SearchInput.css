@@ -1,0 +1,24 @@
+.input-container {
+  display: inline;
+  border-color: #565656;
+}
+
+.search-icon {
+  color: #565656;
+  margin: 3px;
+}
+
+.search-input-box {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.input-field {
+  display: flex;
+  /* align-items: center; */
+  border: 1px solid grey;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 8px;
+}

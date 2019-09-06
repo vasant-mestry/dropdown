@@ -1,0 +1,23 @@
+.SearchDropdown {
+  border: 1.5px solid;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.SearchDropdown-collapse {
+  border-color: rgb(220, 220, 220);
+}
+
+.SearchDropdown-collapse:hover {
+  border-color: rgb(180, 180, 180);
+}
+
+.SearchDropdown-expand {
+  border: 1px solid #87c7d0;
+}
+
+.SearchDropdown-current {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}

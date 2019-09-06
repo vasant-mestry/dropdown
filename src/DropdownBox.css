@@ -1,0 +1,22 @@
+.DropDown {
+  border: 2px solid greenyellow;
+  justify-content: flex-start;
+  border-radius: 2px;
+  margin: 5px;
+}
+/* .DropDown-collapse {
+  border-color: black;
+} */
+.DropDown-current {
+  background-color: #cbcbcb;
+  /* border: 1px solid black; */
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectOptions {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
